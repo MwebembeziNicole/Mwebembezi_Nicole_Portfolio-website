@@ -4,7 +4,7 @@ export default function Contact() {
   return (
     <section
       id="contact"
-      className="py-24 bg-gray-900 relative overflow-hidden"
+      className="py-10 bg-gray-900 relative overflow-hidden"
     >
       
       <div className="absolute top-0 right-0 -mr-24 -mt-24 w-96 h-96 bg-[#ed1838]/20 rounded-full blur-3xl" />
@@ -16,7 +16,7 @@ export default function Contact() {
           Contact Me
         </h2>
 
-        <p className="text-xl text-gray-400 mb-12">
+        <p className="text-lg text-gray-200 mb-12">
           I am currently available for full-time roles and freelance
           consultations in Data Science and Analysis.
         </p>

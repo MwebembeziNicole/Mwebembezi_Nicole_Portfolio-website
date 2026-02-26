@@ -39,7 +39,7 @@ export default function Navbar() {
     >
       <div className="max-w-6xl mx-auto px-6 py-4 flex justify-between items-center text-white">
         {/* Logo */}
-        <h1 className="text-2xl font-bold text-[#ffff]">MNM</h1>
+        <a className="text-2xl font-bold text-[#ffff]" href={`#home`}>M<span className="text-[#ed1838]">N</span>M</a>
 
         {/* Desktop menu */}
         <ul className="hidden md:flex items-center gap-8 font-medium">
@@ -47,7 +47,7 @@ export default function Navbar() {
             <li key={link}>
               <a
                 href={`#${link.toLowerCase()}`}
-                className="hover:text-[#ec1839] transition"
+                className="hover:text-[#ed1838] transition"
               >
                 {link}
               </a>
