@@ -21,7 +21,7 @@ const projects = [
       "A digital school management and analytics system designed to support data-driven academic planning and institutional decision-making.",
     tags: ["Data Analysis", "Education", "Systems"],
     image: ennesImg,
-    link: null,
+    link: "https://ennes-primary-landin-bycw.bolt.host/",
   },
   {
     title: "Rhizonecare",
