@@ -30,7 +30,7 @@ export default function Hero() {
             {/* Heading */}
             <h1 className="text-4xl md:text-6xl font-extrabold leading-tight mb-6 text-black">
               Mwebembezi Nicole Mbabazi:{" "}
-              <span className="text-[#ed1838]">Turning Data</span> into Insights.
+              <span className="text-[#ed1838]">Engineering Digital Solutions</span> for a Smarter World.
             </h1>
 
             {/* Description */}
