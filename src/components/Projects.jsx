@@ -5,6 +5,7 @@ import dataImg from "../assets/images/data.jpg";
 import ennesImg from "../assets/images/ENNES.jpeg";
 import rhizoImg from "../assets/images/Rhizonecare.jpeg";
 import ecoImg from "../assets/images/eco_classfier.jpeg";
+import scrapingImg from "../assets/images/project.png";
 
 const projects = [
   {
@@ -38,6 +39,14 @@ const projects = [
     tags: ["Computer Vision", "YOLO", "AI"],
     image: ecoImg,
     link: "https://github.com/YAS-1/EcoClassifier.git",
+  },
+  {
+    title: "Business Scraping Agent",
+    description:
+      "A data collection and automation system designed to scrape Ugandan business information from multiple online platforms, track collection progress, manage scraping logs, and export structured Excel reports for analysis.",
+    tags: ["WEB SCRAPING", "AUTOMATION", "PYTHON", "EXCEL EXPORT"],
+    image: scrapingImg,
+    link: "https://github.com/MwebembeziNicole/UG-Business-Scrapper.git",
   },
 ];
 

@@ -9,6 +9,8 @@ import {
   PieChart,
   BarChart3,
   Brain ,
+  ShieldCheck,
+  Search,
 } from "lucide-react";
 
 export default function About() {
@@ -62,11 +64,11 @@ export default function About() {
               Core Competencies
             </h2>
             <p className="text-gray-600">
-              Specialized technical skill set focused on data excellence
+              Specialized technical skill set focused on data, security, and automation
             </p>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             <SkillCard
               icon={Code}
               title="Python"
@@ -86,6 +88,16 @@ export default function About() {
               icon={PieChart}
               title="Structured Query Language (SQL)"
               description="Writing efficient SQL queries to extract, manipulate, and analyze data from relational databases."
+            />
+            <SkillCard
+              icon={ShieldCheck}
+              title="AI Security"
+              description="Understanding security risks in AI systems, responsible AI use, model and data protection, prompt-injection awareness, and secure AI deployment practices."
+            />
+            <SkillCard
+              icon={Search}
+              title="Web Scraping"
+              description="Building automated data collection workflows using Python, Selenium, Playwright, and BeautifulSoup to extract, clean, and export structured data."
             />
           </div>
         </section>
