@@ -24,7 +24,7 @@ export default function Hero() {
           >
             {/* Badge */}
             <span className="inline-block px-4 py-1 bg-[#ed1838]/10 text-[#ed1838] text-xs font-bold tracking-widest rounded-full mb-6">
-              AI Security | Computer Scientist
+              AI Security Engineer | Computer Scientist
             </span>
 
             {/* Heading */}
