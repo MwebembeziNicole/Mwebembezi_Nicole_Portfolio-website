@@ -32,7 +32,7 @@ export default function Contact() {
               <Mail className="w-5 h-5 text-white" />
             </span>
             <span className="text-lg font-medium">
-              nicolemwebembezi18@gmail.com
+              nicolemwebembezi56@gmail.com
             </span>
           </a>
 

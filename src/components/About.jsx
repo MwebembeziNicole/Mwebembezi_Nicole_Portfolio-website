@@ -49,7 +49,7 @@ export default function About() {
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 mb-20 shadow-sm p-4 rounded-lg">
           <Info icon={Calendar} label="Birthday" value="30th May 2002" />
           {/* <Info icon={Calendar} label="Age" value="23" /> */}
-          <Info icon={Mail} label="Email" value="nicolembabazi@gmail.com" />
+          <Info icon={Mail} label="Email" value="nicolemwebembezi56@gmail.com" />
           <Info icon={GraduationCap} label="Degree" value="Computer Science" />
           <Info icon={MapPin} label="City" value="Kampala" />
           <Info icon={Flag} label="Nationality" value="Ugandan" />
