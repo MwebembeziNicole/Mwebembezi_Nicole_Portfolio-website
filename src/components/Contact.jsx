@@ -36,18 +36,7 @@ export default function Contact() {
             </span>
           </a>
 
-          {/* Divider */}
-          <div className="hidden md:block w-px h-10 bg-white/10" />
-
-          
-          
-            <span className="w-10 h-10 bg-[#ed1838] rounded-full flex items-center justify-center">
-              <Phone className="w-5 h-5 text-white" />
-            </span>
-            <span className="text-lg font-medium">
-              +256 787 533 245
-            </span>
-          </a>
+         
 
           {/* Divider */}
           <div className="hidden md:block w-px h-10 bg-white/10" />
