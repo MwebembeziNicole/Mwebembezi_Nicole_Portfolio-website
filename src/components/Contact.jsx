@@ -39,11 +39,8 @@ export default function Contact() {
           {/* Divider */}
           <div className="hidden md:block w-px h-10 bg-white/10" />
 
-          {/* Telphone */}
-          <a
-            href="tel:+256787533245"
-            className="flex items-center gap-3 text-white hover:text-[#ed1838] transition-colors"
-          >
+          
+          
             <span className="w-10 h-10 bg-[#ed1838] rounded-full flex items-center justify-center">
               <Phone className="w-5 h-5 text-white" />
             </span>
